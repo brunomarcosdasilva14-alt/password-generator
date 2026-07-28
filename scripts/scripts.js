@@ -6,7 +6,7 @@ const securityIndicatorBarEl = document.querySelector('#security-indicator-bar')
 
 let passwordLenght = 16
 
-function generatePassword() {
+function generatepassWord() {
     let chars = "abcçdefghijklmnopqrstuvwxyz"
 
     const upperCaseChars = "ABCÇDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -22,7 +22,7 @@ function generatePassword() {
 
     if (symbolCheckEl.checked) {
         chars += symbolChars
-    }
+    }'
 
     let password = ''
 
